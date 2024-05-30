@@ -11,6 +11,7 @@
     <title>Barakah Catering</title>
   </head>
   <body>
+    <!-- Dialogflow Chatbot Integration -->
     <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
     <df-messenger
       intent="WELCOME"
@@ -18,13 +19,15 @@
       agent-id="8c54bcc1-2dba-420e-b607-6b4a5c605186"
       language-code="en"
     ></df-messenger>
+
+    <!-- Header Section: Navigation and Logo -->
     <header>
       <div class="top-nav">
         <div class="Phone">
           <a href="404.html"><button>Call - 987 654 321</button></a>
         </div>
         <div class="Logo">
-          <img src="/Resources/Header/logo.png" alt="" />
+          <img src="/Resources/Header/logo.png" alt="Barakah Catering Logo" />
         </div>
         <div class="Reservation-button">
           <a href="404.html"><button>Reservation</button></a>
@@ -42,11 +45,15 @@
       </nav>
       <hr class="header-line" />
     </header>
+
+    <!-- Main Heading Section -->
     <div class="Main-Heading">
       <hr />
       <h1>Our Essence</h1>
       <hr />
     </div>
+
+    <!-- Introduction Section -->
     <section class="Introduction-Section">
       <div class="Left-Introduction-Section">
         <hr />
@@ -65,16 +72,16 @@
       <div class="Right-Introduction-Section">
         <div class="Introduction-Section-images">
           <div class="Introduction-Section-image">
-            <img src="Resources\Introduction\Cafe.jpg" alt="" />
+            <img src="Resources/Introduction/Cafe.jpg" alt="Cafe Image" />
           </div>
           <div class="Introduction-Section-pattern">
-            <img src="Resources\Introduction\Pattern.svg" alt="" />
+            <img src="Resources/Introduction/Pattern.svg" alt="Pattern" />
           </div>
         </div>
         <div class="Introduction-Section-Ceo">
           <div class="Ceo-Details">
             <img
-              src="Resources\Introduction\Ceo.jpg"
+              src="Resources/Introduction/Ceo.jpg"
               alt="Josefine"
               class="ceo-img"
             />
@@ -89,10 +96,12 @@
       </div>
     </section>
 
+    <!-- Banner Section -->
     <div class="Banner">
-      <img src="Resources\About us\Image-banner.png" alt="" />
+      <img src="Resources/About us/Image-banner.png" alt="Image Banner" />
     </div>
 
+    <!-- Chef Section -->
     <section class="Chef-Section">
       <div>
         <hr />
@@ -102,28 +111,29 @@
       <h1>Meet Our Professional Chefs</h1>
       <div class="chefs">
         <div class="chef">
-          <img src="./Resources/Chefs/Avroko.png" alt="" />
+          <img src="Resources/Chefs/Avroko.png" alt="Chef Avroko" />
           <h1>Avroko</h1>
           <h3>Master Chef</h3>
         </div>
         <div class="chef">
-          <img src="./Resources/Chefs/Evan.png" alt="" />
+          <img src="Resources/Chefs/Evan.png" alt="Chef Evan Mattew" />
           <h1>Evan Mattew</h1>
           <h3>Master Chef</h3>
         </div>
         <div class="chef">
-          <img src="./Resources/Chefs/Diane.png" alt="" />
+          <img src="Resources/Chefs/Diane.png" alt="Chef Diane Clarkson" />
           <h1>Diane Clarkson</h1>
           <h3>Master Chef</h3>
         </div>
         <div class="chef">
-          <img src="./Resources/Chefs/Dan.png" alt="" />
+          <img src="Resources/Chefs/Dan.png" alt="Chef Dan Rafalin" />
           <h1>Dan Rafalin</h1>
           <h3>Assistant Chef</h3>
         </div>
       </div>
     </section>
 
+    <!-- Testimonial Section -->
     <section class="Testimonial-Section">
       <hr />
       <h3 class="section-title">TESTIMONIAL</h3>
@@ -131,7 +141,7 @@
       <h2 class="main-title">What Our Clients Say</h2>
       <div class="testimonial-content">
         <div class="left-arrow">
-          <img src="Resources\Testimonials\Left Arrow.png" alt="" />
+          <img src="Resources/Testimonials/Left Arrow.png" alt="Left Arrow" />
         </div>
         <div class="testimonial-quote">
           <p class="quote">
@@ -142,7 +152,7 @@
           </p>
           <div class="client-info">
             <img
-              src="Resources\Testimonials\Daniyal.png"
+              src="Resources/Testimonials/Daniyal.png"
               alt="Client Image"
               class="client-image"
             />
@@ -153,31 +163,45 @@
           </div>
         </div>
         <div class="right-arrow">
-          <img src="Resources\Testimonials\Right Arrow.png" alt="" />
+          <img src="Resources/Testimonials/Right Arrow.png" alt="Right Arrow" />
         </div>
       </div>
     </section>
 
+    <!-- Gallery Section -->
     <section class="gallery-section">
       <hr />
-      <h3>GALLARY</h3>
+      <h3>GALLERY</h3>
       <hr />
       <h1>What We Make</h1>
       <div class="gallery-images">
         <div class="gallery-column">
-          <img src="Resources\Gallery\one.jpg" id="one" />
-          <img src="Resources\Gallery\two.jpg" id="two" />
+          <img src="Resources/Gallery/one.jpg" id="one" alt="Gallery Image 1" />
+          <img src="Resources/Gallery/two.jpg" id="two" alt="Gallery Image 2" />
         </div>
         <div class="gallery-column">
-          <img src="Resources\Gallery\three.jpg" id="three" />
+          <img
+            src="Resources/Gallery/three.jpg"
+            id="three"
+            alt="Gallery Image 3"
+          />
         </div>
         <div class="gallery-column">
-          <img src="Resources\Gallery\four.jpg" id="four" />
-          <img src="Resources\Gallery\five.jpg" id="five" />
+          <img
+            src="Resources/Gallery/four.jpg"
+            id="four"
+            alt="Gallery Image 4"
+          />
+          <img
+            src="Resources/Gallery/five.jpg"
+            id="five"
+            alt="Gallery Image 5"
+          />
         </div>
       </div>
     </section>
 
+    <!-- Reservation Section -->
     <section class="Reservation-Section">
       <div class="Reservation-Form">
         <hr />
@@ -210,6 +234,8 @@
         </form>
       </div>
     </section>
+
+    <!-- Footer Section -->
     <footer class="footer">
       <div class="footer-logo">
         <img src="Resources/Header/logo.png" alt="Barakah Catering Logo" />
@@ -247,16 +273,16 @@
         <p>Copyright © 2024 Barakah Catering</p>
         <div class="Footer-Socials">
           <a href="#"
-            ><img src="Resources\Socialmediaicons\Insta.png" alt="Instagram"
+            ><img src="Resources/Socialmediaicons/Insta.png" alt="Instagram"
           /></a>
           <a href="#"
-            ><img src="Resources\Socialmediaicons\Fb.png" alt="Facebook"
+            ><img src="Resources/Socialmediaicons/Fb.png" alt="Facebook"
           /></a>
           <a href="#"
-            ><img src="Resources\Socialmediaicons\Twiter.png" alt="Twitter"
+            ><img src="Resources/Socialmediaicons/Twiter.png" alt="Twitter"
           /></a>
           <a href="#"
-            ><img src="Resources\Socialmediaicons\Pintrest.png" alt="Pinterest"
+            ><img src="Resources/Socialmediaicons/Pintrest.png" alt="Pinterest"
           /></a>
         </div>
       </div>
