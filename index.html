@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -11,20 +12,23 @@
     <title>Barakah Catering</title>
   </head>
   <body>
+    <!-- Dialogflow Chatbot Integration -->
     <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
     <df-messenger
       intent="WELCOME"
       chat-title="Barakah-Catering-service"
       agent-id="8c54bcc1-2dba-420e-b607-6b4a5c605186"
-      language-code="en"
-    ></df-messenger>
+      language-code="en">
+    </df-messenger>
+    
+    <!-- Header Section: Navigation and Logo -->
     <header>
       <div class="top-nav">
         <div class="Phone">
           <a href="404.html"><button>Call - 987 654 321</button></a>
         </div>
         <div class="Logo">
-          <img src="/Resources/Header/logo.png" alt="" />
+          <img src="/Resources/Header/logo.png" alt="Barakah Catering Logo" />
         </div>
         <div class="Reservation-button">
           <a href="404.html"><button>Reservation</button></a>
@@ -43,494 +47,183 @@
       <hr class="header-line" />
     </header>
 
-    <section class="Hero-Section">
-      <div class="Left-Hero-Section">
-        <h1>
-          Welcome to <br />
-          Barakah Catering
-        </h1>
-        <p>
-          Simply dummy text of the printing and typesetting industry. Lorem
-          Ipsum has been the industry's standard dummy .
-        </p>
-        <button class="Menu-button">View Menu</button>
-      </div>
-      <div class="Right-Hero-Section">
-        <div class="Hero-Section-image">
-          <img src="Resources/Herosectionimage.jpg" alt="" />
-        </div>
-        <div class="Hero-Section-pattern">
-          <img src="Resources/Herosectionpattern.svg" alt="" />
-        </div>
-      </div>
-    </section>
-    <section class="Story-Section">
-      <div class="Story-Section-wrapper">
-        <div class="Top-Story-section">
-          <div class="Top-Story-section-item">
-            <img src="/Resources/Story/location-icon.png" alt="" />
-            <div>
-              <h3>Locate Us</h3>
-              <p>Riverside 25, San Francisco, California</p>
-            </div>
-          </div>
-          <div class="Top-Story-section-item">
-            <img src="/Resources/Story/Time-icon.png" alt="" />
-            <div>
-              <h3>Open Hours</h3>
-              <p>Mon To Fri 9:00 AM - 9:00 PM</p>
-            </div>
-          </div>
-          <div class="Top-Story-section-item">
-            <img src="/Resources/Story/reservation-icon.png" alt="" />
-            <div>
-              <h3>Reservation</h3>
-              <p>contact@barakahcatering.com</p>
-            </div>
-          </div>
-        </div>
-        <div class="Bottom-Story-section">
-          <div class="Left-Bottom-Story-section">
-            <img src="/Resources/Story/Story-img.png" alt="" />
-          </div>
-          <hr />
-          <div class="Right-Bottom-Story-section">
-            <div class="Top-Right-Bottom-Story-section">
-              <h1>The Story</h1>
-              <p>
-                Lorem Ipsum is that it has a more-or-less normal distribution of
-                letters, as opposed to using 'Content here, content gfshere',
-                makinlook like readable English. Many desktop publishing
-                packages.
-              </p>
-            </div>
-            <div class="Top-Middle-Bottom-Story-section">
-              <div>
-                <h1>1996</h1>
-                <p>
-                  Lorem Ipsum is that it has a more-or-less normal distribution
-                </p>
-              </div>
-              <div>
-                <h1>2021</h1>
-                <p>
-                  Lorem Ipsum is that it has a more-or-less normal Content
-                  content
-                </p>
-              </div>
-            </div>
-            <div class="Top-Down-Bottom-Story-section">
-              <h1>JOSEFINE</h1>
-              <p>Josefine</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="Menu-Section">
-      <aside class="special-offers">
-        <div>
-          <hr class="menu-heading" />
-          <h3>MENU</h3>
-          <hr />
-        </div>
-        <h2>Try Our Special Offers</h2>
-        <p>
-          Lorem Ipsum is that it has a more-or-less normal distribution of
-          letters, as opposed to using Content here, content making it look like
-          readable English.
-        </p>
-        <img
-          src="Resources\Menu\SpecialOffers.png"
-          alt="Special Offers Image"
-        />
-        <button>See all dishes</button>
-      </aside>
-
-      <div class="Main-menu">
-        <div class="Menu-starters">
-          <h2>Starters</h2>
-          <div class="menu-item">
-            <div class="menu-info">
-              <img
-                src="Resources\Menu\RawScallops.png"
-                alt="Raw Scallops from Erquy"
-              />
-              <div>
-                <p>Raw Scallops from Erquy</p>
-                <p class="description">Candied Jerusalem artichokes, truffle</p>
-              </div>
-            </div>
-            <p class="price">40 DHR</p>
-          </div>
-          <div class="menu-item">
-            <div class="menu-info">
-              <img src="Resources\Menu\SpringRolls.png" alt="Spring Roll" />
-              <div>
-                <p>Spring Roll</p>
-                <p class="description">Candied Jerusalem artichokes, truffle</p>
-              </div>
-            </div>
-            <p class="price">20 DHR</p>
-          </div>
-          <div class="menu-item">
-            <div class="menu-info">
-              <img
-                src="Resources\Menu\FrenchOnionSoup.png"
-                alt="French Onion Soup"
-              />
-              <div>
-                <p>French Onion Soup</p>
-                <p class="description">Candied Jerusalem artichokes, truffle</p>
-              </div>
-            </div>
-            <p class="price">25 DHR</p>
-          </div>
-          <div class="menu-item">
-            <div class="menu-info">
-              <img
-                src="Resources\Menu\TomatoBruscheta.png"
-                alt="Tomato Bruschetta"
-              />
-              <div>
-                <p>Tomato Bruschetta</p>
-                <p class="description">Candied Jerusalem artichokes, truffle</p>
-              </div>
-            </div>
-            <p class="price">30 DHR</p>
-          </div>
-        </div>
-
-        <div class="Menu-maindish">
-          <h2>Main Dish</h2>
-          <div class="menu-item">
-            <div class="menu-info">
-              <img
-                src="Resources\Menu\GrilledSalmon.png"
-                alt="Grilled Salmon with Dill Sauce"
-              />
-              <div>
-                <p>Grilled Salmon with Dill Sauce</p>
-                <p class="description">Candied Jerusalem artichokes, truffle</p>
-              </div>
-            </div>
-            <p class="price">40 DHR</p>
-          </div>
-          <div class="menu-item">
-            <div class="menu-info">
-              <img
-                src="Resources\Menu\RoasBeef.png"
-                alt="Roast Beef with Vegetable"
-              />
-              <div>
-                <p>Roast Beef with Vegetable</p>
-                <p class="description">Candied Jerusalem artichokes, truffle</p>
-              </div>
-            </div>
-            <p class="price">20 DHR</p>
-          </div>
-          <div class="menu-item">
-            <div class="menu-info">
-              <img
-                src="Resources\Menu\MarrkeshVeg.png"
-                alt="Marrakesh Vegetarian Curry"
-              />
-              <div>
-                <p>Marrakesh Vegetarian Curry</p>
-                <p class="description">Candied Jerusalem artichokes, truffle</p>
-              </div>
-            </div>
-            <p class="price">25 DHR</p>
-          </div>
-          <div class="menu-item">
-            <div class="menu-info">
-              <img
-                src="Resources\Menu\SpicyVegan.png"
-                alt="Spicy Vegan Potato Curry"
-              />
-              <div>
-                <p>Spicy Vegan Potato Curry</p>
-                <p class="description">Candied Jerusalem artichokes, truffle</p>
-              </div>
-            </div>
-            <p class="price">30 DHR</p>
-          </div>
-        </div>
-
-        <div class="Menu-desserts">
-          <h2>Dessert</h2>
-          <div class="menu-item">
-            <div class="menu-info">
-              <img
-                src="Resources\Menu\ApplePie.png"
-                alt="Apple Pie with Cream"
-              />
-              <div>
-                <p>Apple Pie with Cream</p>
-                <p class="description">Candied Jerusalem artichokes, truffle</p>
-              </div>
-            </div>
-            <p class="price">40 DHR</p>
-          </div>
-          <div class="menu-item">
-            <div class="menu-info">
-              <img
-                src="Resources\Menu\LemonMeringue.png"
-                alt="Lemon Meringue Pie"
-              />
-              <div>
-                <p>Lemon Meringue Pie</p>
-                <p class="description">Candied Jerusalem artichokes, truffle</p>
-              </div>
-            </div>
-            <p class="price">20 DHR</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="testimonial-section">
-      <div class="testimonial-text">
-        <hr />
-        <h2>TESTIMONIAL</h2>
-        <hr />
-        <h3>What our clients say</h3>
-        <p>
-          We love to hear from customers, so please leave a comment or say hello
-          in an email.
-        </p>
-      </div>
-      <div class="testimonials">
-        <div class="testimonial">
-          <div class="testimonials-details">
-            <div class="profile-pic">
-              <img
-                src="Resources\Testimonials\Daniyal.png"
-                alt="Daniyal Sppra"
-              />
-            </div>
-            <div>
-              <h4>Daniyal Sppra</h4>
-              <p class="location">Newark</p>
-            </div>
-          </div>
-          <hr />
-          <p class="feedback">
-            "It is professional, considers everyone's time, can think about the.
-            There are many variations of passages whole probis small niche,
-            friendly.
-          </p>
-        </div>
-        <div class="testimonial">
-          <div class="testimonials-details">
-            <div class="profile-pic">
-              <img src="Resources\Testimonials\Natasha.png" alt="Natasha D" />
-            </div>
-            <div>
-              <h4>Natasha D</h4>
-              <p class="location">Salt Lake City</p>
-            </div>
-          </div>
-          <hr />
-          <p class="feedback">
-            "It is professional, considers everyone's time, can think about the.
-            There are many variations of passages."
-          </p>
-        </div>
-        <div class="testimonial">
-          <div class="testimonials-details">
-            <div class="profile-pic">
-              <img src="Resources\Testimonials\Jack.png" alt="Jack Sparrow" />
-            </div>
-            <div>
-              <h4>Jack Sparrow</h4>
-              <p class="location">San Diego</p>
-            </div>
-          </div>
-          <hr />
-          <p class="feedback">
-            "It is professional, considers everyone's time, can think about the.
-            There are many passages whole probis small niche, friendly."
-          </p>
-        </div>
-      </div>
-      <div class="pagination">
-        <span class="dot" id="dot-one"></span>
-        <span class="dot" id="dot-two"></span>
-      </div>
-    </section>
-    <div class="testimonail-banner">
-      <img src="Resources\Testimonials\Lights Banner.png" alt="" />
+    <!-- Menu Page Heading -->
+    <div class="Menu-Page-Heading">
+      <hr />
+      <h1>Our Menu</h1>
+      <hr />
     </div>
-    <section class="Special-Offer-Section">
-      <div class="Offer-Information">
-        <hr />
-        <h3>OFFER</h3>
-        <hr />
-        <h1>Our special Offer dishes</h1>
-        <div class="Offer-text-wrap">
-          <p>
-            Lorem Ipsum is that it has a more-or-less normal distribution of
-            letters, as opposed to using 'Content here, content making.
-          </p>
-        </div>
+
+    <!-- Starters Section -->
+    <section class="Starters-Section">
+      <div class="Starters-image">
+        <img src="Resources/Menu/Startersimg.png" alt="Starters Image" />
       </div>
-      <div class="Offer-Banners">
-        <img src="Resources\Special Offers\burger-banner.png" alt="" />
-        <img src="Resources\Special Offers\pizza-banner.png" alt="" />
-      </div>
-    </section>
-    <section class="Popular-Dishes-Section">
-      <div class="Dishes-Information">
-        <hr />
-        <h3>Menu</h3>
-        <hr />
-        <h1>Popular Dishes</h1>
-        <div class="Dishes-text-wrap">
-          <p>
-            Lorem Ipsum is that it has a more-or-less normal distribution of
-            letters, as opposed to using 'Content here, content making.
-          </p>
-        </div>
-      </div>
-      <div class="Dishes">
-        <div class="Dish">
-          <img src="Resources\Popular Dishes\ChickenManjoori.png" alt="" />
-          <div>
-            <h3>Chicken Manjoori</h3>
-            <h5>15 DHR</h5>
-          </div>
-          <div class="Dishes-info-text-wrap">
-            <p>Lorem Ipsum is that it has a more-or-less normal</p>
-          </div>
-        </div>
-        <div class="Dish">
-          <img src="Resources\Popular Dishes\HotDog.png" alt="" />
-          <div>
-            <h3>Chicken Manjoori</h3>
-            <h5>15 DHR</h5>
-          </div>
-          <div class="Dishes-info-text-wrap">
-            <p>Lorem Ipsum is that it has a more-or-less normal</p>
-          </div>
-        </div>
-        <div class="Dish">
-          <img src="Resources\Popular Dishes\LemonMargarita.png" alt="" />
-          <div>
-            <h3>Chicken Manjoori</h3>
-            <h5>15 DHR</h5>
-          </div>
-          <div class="Dishes-info-text-wrap">
-            <p>Lorem Ipsum is that it has a more-or-less normal</p>
-          </div>
-        </div>
-        <div class="Dish">
-          <img src="Resources\Popular Dishes\Burger.png" alt="" />
-          <div>
-            <h3>Chicken Manjoori</h3>
-            <h5>6 DHR</h5>
-          </div>
-          <div class="Dishes-info-text-wrap">
-            <p>Lorem Ipsum is that it has a more-or-less normal</p>
-          </div>
-        </div>
-      </div>
-      <div class="Dishes-button-container">
-        <button class="Dishes-button"><p>See all dishes</p></button>
-      </div>
-    </section>
-    <section class="Services-Section">
-      <div class="Servies-text">
-        <hr />
-        <h3>WHAT WE OFFER</h3>
-        <hr />
-        <h1>Our Great Services</h1>
-        <div class="Service-text-wrap">
-          <p>
-            Lorem Ipsum is that it has a more-or-less normal distribution
-            content making it look like readable English.
-          </p>
-        </div>
-      </div>
-      <div class="Services">
-        <div class="Service">
-          <div class="Service-container">
-            <img src="Resources\Services\Calendar.png" alt="" />
-          </div>
-        </div>
-        <div class="Service">
-          <div class="Service-container">
-            <img src="Resources\Services\Menu.png" alt="" />
-          </div>
-        </div>
-        <div class="Service">
-          <div class="Service-container">
-            <img src="Resources\Services\Calendar.png" alt="" />
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="Blog-section">
-      <div class="Blog-Information">
-        <hr />
-        <h3>Blog</h3>
-        <hr />
-        <h1>Be First Who Read News</h1>
-        <div class="Blog-text-wrap">
-          <p>
-            Lorem Ipsum is that it has a more-or-less normal distribution of
-            letters, as opposed to using 'Content here, content making.
-          </p>
-        </div>
-      </div>
-      <div class="Blog-Container">
-        <div class="Blog-Card">
-          <img src="Resources\Blog\peach.png" alt="Blog Image 1" />
-          <div class="Blog-Content">
-            <div class="Blog-Header">
-              <span class="Blog-Category"
-                ><hr />
-                RESTAURANTS
-                <hr
-              /></span>
-              <span class="Blog-Date"
-                ><hr />
-                FEB 22, 2022
-                <hr
-              /></span>
+      <div class="Starters-details">
+        <h2>Starters</h2>
+        <div class="Starter-item">
+          <div class="Starter-info">
+            <img
+              src="Resources/Menu/RawScallops.png"
+              alt="Raw Scallops from Erquy"/>
+            <div>
+              <h3>Raw Scallops from Erquy</h3>
+              <p>Condied Jerusalem artichokes, truffle</p>
             </div>
-            <h2 class="Blog-Title">LOREM IPSUM</h2>
-            <p class="Blog-Description">
-              Capitalize on low-hanging fruit to identify a ballpark value added
-              matrix economically and the creative activity to beta test
-              override the food quality.
-            </p>
           </div>
+          <div class="Starter-price">40 DHR</div>
         </div>
-        <div class="Blog-Card">
-          <img src="Resources\Blog\pineapple.png" alt="Blog Image 2" />
-          <div class="Blog-Content">
-            <div class="Blog-Header">
-              <span class="Blog-Category"
-                ><hr />
-                RESTAURANTS
-                <hr
-              /></span>
-              <span class="Blog-Date"
-                ><hr />
-                FEB 22, 2022
-                <hr
-              /></span>
+        <div class="Starter-item">
+          <div class="Starter-info">
+            <img src="Resources/Menu/SpringRolls.png" alt="Spring Roll" />
+            <div>
+              <h3>Spring Roll</h3>
+              <p>Condied Jerusalem artichokes, truffle</p>
             </div>
-            <h2 class="Blog-Title">LOREM IPSUM</h2>
-            <p class="Blog-Description">
-              Capitalize on low-hanging fruit to identify a ballpark value added
-              matrix economically and the creative activity to beta test
-              override the food quality.
-            </p>
           </div>
+          <div class="Starter-price">20 DHR</div>
         </div>
+        <div class="Starter-item">
+          <div class="Starter-info">
+            <img
+              src="Resources/Menu/FrenchOnionSoup.png"
+              alt="French Onion Soup"/>
+            <div>
+              <h3>French Onion Soup</h3>
+              <p>Condied Jerusalem artichokes, truffle</p>
+            </div>
+          </div>
+          <div class="Starter-price">25 DHR</div>
+        </div>
+        <div class="Starter-item">
+          <div class="Starter-info">
+            <img
+              src="Resources/Menu/TomatoBruscheta.png"
+              alt="Tomato Bruschetta"/>
+            <div>
+              <h3>Tomato Bruschetta</h3>
+              <p>Condied Jerusalem artichokes, truffle</p>
+            </div>
+          </div>
+          <div class="Starter-price">30 DHR</div>
+        </div>
+        <button class="See-button">See all dishes</button>
       </div>
     </section>
+
+    <!-- Image Banner -->
+    <div class="Image-banner">
+      <img src="Resources/Menu/Banner.png" alt="Menu Banner" />
+    </div>
+
+    <!-- Main Dish Section -->
+    <section class="MainDish-Section">
+      <div class="MainDish-details">
+        <h2>Main Dish</h2>
+        <div class="MainDish-item">
+          <div class="MainDish-info">
+            <img src="Resources/Menu/GrilledSalmon.png" alt="Grilled Salmon with Dill Sauce" />
+            <div>
+              <h3>Grilled Salmon with Dill Sauce</h3>
+              <p>Condied Jerusalem artichokes, truffle</p>
+            </div>
+          </div>
+          <div class="MainDish-price">40 DHR</div>
+        </div>
+        <div class="MainDish-item">
+          <div class="MainDish-info">
+            <img src="Resources/Menu/RoasBeef.png" alt="Roast Beef with Vegetable" />
+            <div>
+              <h3>Roast Beef with Vegetable</h3>
+              <p>Condied Jerusalem artichokes, truffle</p>
+            </div>
+          </div>
+          <div class="MainDish-price">20 DHR</div>
+        </div>
+        <div class="MainDish-item">
+          <div class="MainDish-info">
+            <img src="Resources/Menu/MarrkeshVeg.png" alt="Marrkesh Vegetarian Curry" />
+            <div>
+              <h3>Marrkesh Vegetarian Curry</h3>
+              <p>Condied Jerusalem artichokes, truffle</p>
+            </div>
+          </div>
+          <div class="MainDish-price">25 DHR</div>
+        </div>
+        <div class="MainDish-item">
+          <div class="MainDish-info">
+            <img src="Resources/Menu/SpicyVegan.png" alt="Spicy Vegan Potato Curry" />
+            <div>
+              <h3>Spicy Vegan Potato Curry</h3>
+              <p>Condied Jerusalem artichokes, truffle</p>
+            </div>
+          </div>
+          <div class="MainDish-price">30 DHR</div>
+        </div>
+        <button class="See-button">See all dishes</button>
+      </div>
+      <div class="MainDish-image">
+        <img src="Resources/Menu/Maindishimg.jpg" alt="Main Dish Image" />
+      </div>
+    </section>
+
+    <!-- Second Image Banner -->
+    <div class="Image-banner">
+      <img src="Resources/Menu/Bannertwo.png" alt="Second Banner" />
+    </div>
+
+    <!-- Desserts Section -->
+    <section class="Desserts-Section">
+      <div class="Desserts-image">
+        <img src="Resources/Menu/Dessertsimg.png" alt="Desserts Image" />
+      </div>
+      <div class="Desserts-details">
+        <h2>Dessert</div>
+        <div class="Desserts-item">
+          <div class="Desserts-info">
+            <img src="Resources/Menu/ApplePie.png" alt="Apple Pie with Cream" />
+            <div>
+              <h3>Apple Pie with Cream</h3>
+              <p>Condied Jerusalem artichokes, truffle</p>
+            </div>
+          </div>
+          <div class="Desserts-price">40 DHR</div>
+        </div>
+        <div class="Desserts-item">
+          <div class="Desserts-info">
+            <img src="Resources/Menu/LemonMeringue.png" alt="Lemon Meringue Pie" />
+            <div>
+              <h3>Lemon Meringue Pie</h3>
+              <p>Condied Jerusalem artichokes, truffle</p>
+            </div>
+          </div>
+          <div class="Desserts-price">20 DHR</div>
+        </div>
+        <div class="Desserts-item">
+          <div class="Desserts-info">
+            <img src="Resources/Menu/Image.png" alt="Tender Octopus and Fennel" />
+            <div>
+              <h3>Tender Octopus and Fennel</h3>
+              <p>Condied Jerusalem artichokes, truffle</p>
+            </div>
+          </div>
+          <div class="Desserts-price">50 DHR</div>
+        </div>
+        <div class="Desserts-item">
+          <div class="Desserts-info">
+            <img src="Resources/Menu/Seabass.png" alt="Sea Bass Ceviche" />
+            <div>
+              <h3>Sea Bass Ceviche</h3>
+              <p>Condied Jerusalem artichokes, truffle</p>
+            </div>
+          </div>
+          <div class="Desserts-price">35 DHR</div>
+        </div>
+        <button class="See-button">See all dishes</button>
+      </div>
+    </section>
+
+    <!-- Reservation Section -->
     <section class="Reservation-Section">
       <div class="Reservation-Form">
         <hr />
@@ -563,6 +256,8 @@
         </form>
       </div>
     </section>
+    
+    <!-- Footer Section -->
     <footer class="footer">
       <div class="footer-logo">
         <img src="Resources/Header/logo.png" alt="Barakah Catering Logo" />
@@ -600,16 +295,16 @@
         <p>Copyright © 2024 Barakah Catering</p>
         <div class="Footer-Socials">
           <a href="#"
-            ><img src="Resources\Socialmediaicons\Insta.png" alt="Instagram"
+            ><img src="Resources/Socialmediaicons/Insta.png" alt="Instagram"
           /></a>
           <a href="#"
-            ><img src="Resources\Socialmediaicons\Fb.png" alt="Facebook"
+            ><img src="Resources/Socialmediaicons/Fb.png" alt="Facebook"
           /></a>
           <a href="#"
-            ><img src="Resources\Socialmediaicons\Twiter.png" alt="Twitter"
+            ><img src="Resources/Socialmediaicons/Twiter.png" alt="Twitter"
           /></a>
           <a href="#"
-            ><img src="Resources\Socialmediaicons\Pintrest.png" alt="Pinterest"
+            ><img src="Resources/Socialmediaicons/Pintrest.png" alt="Pinterest"
           /></a>
         </div>
       </div>
