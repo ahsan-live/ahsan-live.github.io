@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -11,6 +12,7 @@
     <title>Barakah Catering</title>
   </head>
   <body>
+    <!-- Dialogflow Chatbot Integration -->
     <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
     <df-messenger
       intent="WELCOME"
@@ -18,13 +20,15 @@
       agent-id="8c54bcc1-2dba-420e-b607-6b4a5c605186"
       language-code="en"
     ></df-messenger>
+
+    <!-- Header Section: Navigation and Logo -->
     <header>
       <div class="top-nav">
         <div class="Phone">
           <a href="404.html"><button>Call - 987 654 321</button></a>
         </div>
         <div class="Logo">
-          <img src="/Resources/Header/logo.png" alt="" />
+          <img src="/Resources/Header/logo.png" alt="Barakah Catering Logo" />
         </div>
         <div class="Reservation-button">
           <a href="404.html"><button>Reservation</button></a>
@@ -43,22 +47,24 @@
       <hr class="header-line" />
     </header>
 
+    <!-- Menu Page Heading -->
     <div class="Menu-Page-Heading">
       <hr />
       <h1>Our Menu</h1>
       <hr />
     </div>
 
+    <!-- Starters Section -->
     <section class="Starters-Section">
       <div class="Starters-image">
-        <img src="Resources\Menu\Startersimg.png" alt="Starters Image" />
+        <img src="Resources/Menu/Startersimg.png" alt="Starters Image" />
       </div>
       <div class="Starters-details">
         <h2>Starters</h2>
         <div class="Starter-item">
           <div class="Starter-info">
             <img
-              src="Resources\Menu\RawScallops.png"
+              src="Resources/Menu/RawScallops.png"
               alt="Raw Scallops from Erquy"
             />
             <div>
@@ -70,7 +76,7 @@
         </div>
         <div class="Starter-item">
           <div class="Starter-info">
-            <img src="Resources\Menu\SpringRolls.png" alt="Spring Roll" />
+            <img src="Resources/Menu/SpringRolls.png" alt="Spring Roll" />
             <div>
               <h3>Spring Roll</h3>
               <p>Condied Jerusalem artichokes, truffle</p>
@@ -81,7 +87,7 @@
         <div class="Starter-item">
           <div class="Starter-info">
             <img
-              src="Resources\Menu\FrenchOnionSoup.png"
+              src="Resources/Menu/FrenchOnionSoup.png"
               alt="French Onion Soup"
             />
             <div>
@@ -94,7 +100,7 @@
         <div class="Starter-item">
           <div class="Starter-info">
             <img
-              src="Resources\Menu\TomatoBruscheta.png"
+              src="Resources/Menu/TomatoBruscheta.png"
               alt="Tomato Bruschetta"
             />
             <div>
@@ -108,38 +114,49 @@
       </div>
     </section>
 
+    <!-- Image Banner -->
     <div class="Image-banner">
-      <img src="Resources\Menu\Banner.png" alt="" />
+      <img src="Resources/Menu/Banner.png" alt="Menu Banner" />
     </div>
 
+    <!-- Main Dish Section -->
     <section class="MainDish-Section">
       <div class="MainDish-details">
         <h2>Main Dish</h2>
         <div class="MainDish-item">
           <div class="MainDish-info">
-            <img src="Resources\Menu\GrilledSalmon.png" />
+            <img
+              src="Resources/Menu/GrilledSalmon.png"
+              alt="Grilled Salmon with Dill Sauce"
+            />
             <div>
-              <h3>Grilled Salmon with Dil Sauce</h3>
-              <p>Candied Jerusalem artichokes, truffle</p>
+              <h3>Grilled Salmon with Dill Sauce</h3>
+              <p>Condied Jerusalem artichokes, truffle</p>
             </div>
           </div>
           <div class="MainDish-price">40 DHR</div>
         </div>
         <div class="MainDish-item">
           <div class="MainDish-info">
-            <img src="Resources\Menu\RoasBeef.png" />
+            <img
+              src="Resources/Menu/RoasBeef.png"
+              alt="Roast Beef with Vegetable"
+            />
             <div>
               <h3>Roast Beef with Vegetable</h3>
-              <p>Candied Jerusalem artichokes, truffle</p>
+              <p>Condied Jerusalem artichokes, truffle</p>
             </div>
           </div>
           <div class="MainDish-price">20 DHR</div>
         </div>
         <div class="MainDish-item">
           <div class="MainDish-info">
-            <img src="Resources\Menu\MarrkeshVeg.png" />
+            <img
+              src="Resources/Menu/MarrkeshVeg.png"
+              alt="Marrkesh Vegetarian Curry"
+            />
             <div>
-              <h3>Marrkesh Vegetetarian Curruy</h3>
+              <h3>Marrkesh Vegetarian Curry</h3>
               <p>Condied Jerusalem artichokes, truffle</p>
             </div>
           </div>
@@ -147,7 +164,10 @@
         </div>
         <div class="MainDish-item">
           <div class="MainDish-info">
-            <img src="Resources\Menu\SpicyVegan.png" />
+            <img
+              src="Resources/Menu/SpicyVegan.png"
+              alt="Spicy Vegan Potato Curry"
+            />
             <div>
               <h3>Spicy Vegan Potato Curry</h3>
               <p>Condied Jerusalem artichokes, truffle</p>
@@ -158,23 +178,25 @@
         <button class="See-button">See all dishes</button>
       </div>
       <div class="MainDish-image">
-        <img src="Resources\Menu\Maindishimg.jpg" />
+        <img src="Resources/Menu/Maindishimg.jpg" alt="Main Dish Image" />
       </div>
     </section>
 
+    <!-- Second Image Banner -->
     <div class="Image-banner">
-      <img src="Resources\Menu\Bannertwo.png" alt="" />
+      <img src="Resources/Menu/Bannertwo.png" alt="Second Banner" />
     </div>
 
+    <!-- Desserts Section -->
     <section class="Desserts-Section">
       <div class="Desserts-image">
-        <img src="Resources\Menu\Dessertsimg.png" />
+        <img src="Resources/Menu/Dessertsimg.png" alt="Desserts Image" />
       </div>
       <div class="Desserts-details">
         <h2>Dessert</h2>
         <div class="Desserts-item">
           <div class="Desserts-info">
-            <img src="Resources\Menu\ApplePie.png" />
+            <img src="Resources/Menu/ApplePie.png" alt="Apple Pie with Cream" />
             <div>
               <h3>Apple Pie with Cream</h3>
               <p>Condied Jerusalem artichokes, truffle</p>
@@ -184,7 +206,10 @@
         </div>
         <div class="Desserts-item">
           <div class="Desserts-info">
-            <img src="Resources\Menu\LemonMeringue.png" />
+            <img
+              src="Resources/Menu/LemonMeringue.png"
+              alt="Lemon Meringue Pie"
+            />
             <div>
               <h3>Lemon Meringue Pie</h3>
               <p>Condied Jerusalem artichokes, truffle</p>
@@ -194,7 +219,10 @@
         </div>
         <div class="Desserts-item">
           <div class="Desserts-info">
-            <img src="Resources\Menu\Image.png" />
+            <img
+              src="Resources/Menu/Image.png"
+              alt="Tender Octopus and Fennel"
+            />
             <div>
               <h3>Tender Octopus and Fennel</h3>
               <p>Condied Jerusalem artichokes, truffle</p>
@@ -204,9 +232,9 @@
         </div>
         <div class="Desserts-item">
           <div class="Desserts-info">
-            <img src="Resources\Menu\Seabass.png" />
+            <img src="Resources/Menu/Seabass.png" alt="Sea Bass Ceviche" />
             <div>
-              <h3>Sea Bass Cevich</h3>
+              <h3>Sea Bass Ceviche</h3>
               <p>Condied Jerusalem artichokes, truffle</p>
             </div>
           </div>
@@ -216,6 +244,7 @@
       </div>
     </section>
 
+    <!-- Reservation Section -->
     <section class="Reservation-Section">
       <div class="Reservation-Form">
         <hr />
@@ -248,6 +277,8 @@
         </form>
       </div>
     </section>
+
+    <!-- Footer Section -->
     <footer class="footer">
       <div class="footer-logo">
         <img src="Resources/Header/logo.png" alt="Barakah Catering Logo" />
@@ -285,19 +316,20 @@
         <p>Copyright © 2024 Barakah Catering</p>
         <div class="Footer-Socials">
           <a href="#"
-            ><img src="Resources\Socialmediaicons\Insta.png" alt="Instagram"
+            ><img src="Resources/Socialmediaicons/Insta.png" alt="Instagram"
           /></a>
           <a href="#"
-            ><img src="Resources\Socialmediaicons\Fb.png" alt="Facebook"
+            ><img src="Resources/Socialmediaicons/Fb.png" alt="Facebook"
           /></a>
           <a href="#"
-            ><img src="Resources\Socialmediaicons\Twiter.png" alt="Twitter"
+            ><img src="Resources/Socialmediaicons/Twiter.png" alt="Twitter"
           /></a>
           <a href="#"
-            ><img src="Resources\Socialmediaicons\Pintrest.png" alt="Pinterest"
+            ><img src="Resources/Socialmediaicons/Pintrest.png" alt="Pinterest"
           /></a>
         </div>
       </div>
     </footer>
   </body>
 </html>
+```
