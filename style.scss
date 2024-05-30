@@ -1,0 +1,2000 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+////////////////////////////////////////////////////////*HOME PAGE *///////////////////////////////////////////////////////////////
+
+.top-nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Phone button,
+.Menu-button {
+  height: 48px;
+  width: 200px;
+  border: 1px solid #e1b168;
+  background-color: #063e12;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 7pc;
+  font-family: "Josefin Sans", sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.Phone a,
+.Reservation-button a {
+  text-decoration: none;
+}
+
+.Phone button:hover {
+  background-color: #0c5d20;
+}
+
+.Reservation-button button:hover {
+  background-color: #32563a;
+}
+
+.Reservation-button button {
+  height: 48px;
+  width: 200px;
+  background-color: #e1b168;
+  border: 1px solid #e1b168;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8pc;
+  transition: background-color 0.3s ease;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 60px;
+  padding: 30px 0px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+header {
+  background-color: #063e12;
+}
+
+.header-line {
+  border: none;
+  height: 2px;
+  background-color: #e1b168;
+}
+
+.Hero-Section {
+  display: flex;
+  background-color: #063e12;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.Left-Hero-Section {
+  max-width: 50%;
+  color: white;
+  padding-left: 11pc;
+}
+
+.Left-Hero-Section h1 {
+  font-size: 4rem;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  font-family: "Cormorant Infant", serif;
+  line-height: 3.5pc;
+}
+
+.Left-Hero-Section p {
+  margin-bottom: 20px;
+  padding-left: 14px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 17px;
+  padding-top: 10px;
+  padding-bottom: 12px;
+}
+
+.Left-Hero-Section button {
+  margin-left: 16px;
+}
+
+.Right-Hero-Section {
+  position: relative;
+  display: flex;
+  align-items: end;
+}
+
+.Hero-Section-image img {
+  width: 425px;
+  height: 525px;
+  border-radius: 500px 500px 0px 0px;
+  margin-left: 15pc;
+  position: relative;
+  top: 40px;
+  right: 13pc;
+  z-index: 3;
+  border: 20px solid rgb(35, 77, 44);
+  border-bottom: 20px solid white;
+}
+
+.Hero-Section-pattern img {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 25px;
+  right: 100px;
+  z-index: 1;
+}
+
+.Story-Section {
+  background-color: #fff8f5;
+}
+
+.Story-Section h3,
+.Story-Section h1 {
+  font-family: "Cormorant Infant", serif;
+  color: #292e36;
+}
+
+.Story-Section p {
+  font-family: "Josefin Sans", sans-serif;
+  color: #4a4a4a;
+}
+
+.Story-Section-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.Top-Story-section {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 120px;
+  padding-left: 32px;
+}
+
+.Top-Story-section-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.Top-Story-section-item img {
+  width: 60px;
+  height: 60px;
+}
+
+.Bottom-Story-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+  gap: 50px;
+  padding-bottom: 80px;
+  padding-left: 32px;
+}
+
+.Bottom-Story-section hr {
+  height: 310px;
+}
+
+.Left-Bottom-Story-section img {
+  width: 450px;
+}
+
+.Top-Right-Bottom-Story-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 50px;
+}
+
+.Top-Middle-Bottom-Story-section {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 50px;
+}
+
+.Top-Middle-Bottom-Story-section h1 {
+  padding-bottom: 10px;
+}
+
+.Top-Down-Bottom-Story-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Top-Down-Bottom-Story-section h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: #292e36;
+}
+
+.Top-Down-Bottom-Story-section p {
+  font-size: 45px;
+  font-family: "Ms Madi", cursive;
+  color: #292e36;
+}
+
+.Menu-Section {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  gap: 6pc;
+  margin-top: 5pc;
+}
+
+.Menu-Section hr {
+  width: 60px;
+  background-color: #e1b168;
+  border: none;
+  height: 1px;
+}
+
+.special-offers {
+  width: 30%;
+  padding-top: 13px;
+  margin-left: 4pc;
+}
+
+.special-offers h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  color: #292e36;
+  font-size: 17px;
+  letter-spacing: 2px;
+  padding: 1px 0px;
+}
+
+.special-offers h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  font-family: "Cormorant Infant", serif;
+  color: #292e36;
+}
+
+.special-offers p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  font-family: "Josefin Sans", sans-serif;
+  color: #555;
+}
+
+.special-offers img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.special-offers button {
+  padding: 10px 20px;
+  border: 1px solid #ff7f50;
+  color: #ff7f50;
+  cursor: pointer;
+  background-color: white;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.Main-menu {
+  width: 70%;
+  padding: 20px;
+}
+
+.Main-menu hr {
+  border: 0;
+  height: 1px;
+  background: #ddd;
+  margin: 10px 0;
+}
+
+.Main-menu h3 {
+  text-align: center;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.Main-menu h2 {
+  font-size: 30px;
+  margin: 15px 0;
+  font-family: "Cormorant Infant", serif;
+  color: #292e36;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.menu-info {
+  display: flex;
+  align-items: center;
+}
+
+.menu-info img {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.menu-info p {
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+  color: #292e36;
+  padding-bottom: 3px;
+}
+
+.menu-info .description {
+  font-size: 14px;
+  color: #555;
+}
+
+.price {
+  font-size: 18px;
+  color: #333;
+  font-family: "Cormorant Infant", serif;
+  color: #292e36;
+  font-weight: 800;
+}
+
+.testimonial-section {
+  padding: 50px 10px;
+  background-color: #063e12;
+}
+
+.testimonial-text {
+  padding-top: 30px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.testimonial-section hr {
+  width: 120px;
+  background-color: #e1b168;
+  border: none;
+  height: 1px;
+  margin: 0 auto;
+}
+
+.testimonial-section h2 {
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  padding-top: 5px;
+}
+
+.testimonial-section h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: white;
+  font-family: "Cormorant Infant", serif;
+}
+
+.testimonial-section p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: center;
+  padding-left: 30px;
+  gap: 20px;
+}
+
+.testimonials hr {
+  width: 300px;
+  background-color: #797e89;
+  border: none;
+  height: 1px;
+}
+
+.testimonial {
+  background-color: #32563a;
+  padding: 20px;
+  width: 340px;
+}
+
+.testimonials-details {
+  display: flex;
+  gap: 10px;
+}
+
+.profile-pic {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.profile-pic img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.testimonial h4 {
+  margin: 10px 0 5px 0;
+  font-size: 22px;
+  font-family: "Cormorant Infant", serif;
+  color: white;
+}
+
+.testimonials-details .location {
+  font-size: 14px;
+  color: #e1b168;
+  margin-bottom: 15px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.testimonial-section .feedback {
+  font-size: 14px;
+  color: #fff;
+  padding-top: 30px;
+  line-height: 1.5pc;
+  font-family: "Cormorant Infant", serif;
+  opacity: 0.7;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: #fffafa;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+#dot-two {
+  background-color: #8f8b8b;
+}
+
+.testimonail-banner img {
+  height: auto;
+  width: 100%;
+}
+
+.Offer-Information,
+.Dishes-Information,
+.Blog-Information {
+  text-align: center;
+  margin-top: 5pc;
+}
+
+.Offer-Information h3,
+.Dishes-Information h3,
+.Blog-Information h3 {
+  letter-spacing: 2px;
+  font-family: "Josefin Sans", sans-serif;
+  color: #292e36;
+  padding-top: 2px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.Offer-Information hr,
+.Dishes-Information hr,
+.Blog-Information hr {
+  width: 65px;
+  margin: auto;
+  border: none;
+  background-color: #e1b168;
+  height: 1px;
+}
+
+.Offer-Information h1,
+.Dishes-Information h1,
+.Blog-Information h1 {
+  padding-top: 7px;
+  padding-bottom: 9px;
+  font-family: "Cormorant Infant", serif;
+  color: #292e36;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.Offer-text-wrap,
+.Dishes-text-wrap,
+.Blog-text-wrap {
+  width: 550px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  font-family: "Josefin Sans", sans-serif;
+  color: #555555;
+}
+
+.Offer-Banners img {
+  width: 515px;
+  padding-right: 25px;
+}
+
+.Offer-Banners {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.Dishes {
+  display: flex;
+  justify-content: center;
+  gap: 23px;
+  margin-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.Dish div {
+  display: flex;
+  gap: 28px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.Dish div h3 {
+  font-family: "Cormorant Infant", serif;
+  color: #292e36;
+  font-weight: bolder;
+  font-size: 21px;
+}
+
+.Dish div h5 {
+  padding-top: 4px;
+  color: #292e36;
+  font-weight: 300;
+}
+
+.Dish img {
+  width: 230px;
+}
+
+.Dishes-info-text-wrap {
+  width: 220px;
+  font-family: "Josefin Sans", sans-serif;
+  color: #555555;
+}
+
+.Dishes-button {
+  padding: 10px 20px;
+  border: 1px solid #ff7f50;
+  color: #ff7f50;
+  cursor: pointer;
+  background-color: white;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.Dishes-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 7pc;
+  margin-right: 1.2pc;
+}
+
+.Services-Section {
+  background-color: #063e12;
+  padding-left: 200px;
+  display: flex;
+  padding-top: 120px;
+  padding-bottom: 75px;
+}
+
+.Servies-text {
+  width: 360px;
+  margin-left: 14.5pc;
+  margin-top: 15px;
+}
+
+.Servies-text hr {
+  width: 140px;
+  border: none;
+  background-color: #e1b168;
+  height: 1px;
+}
+
+.Service-text-wrap {
+  width: 320px;
+  padding-top: 9px;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 1.3pc;
+}
+
+.Servies-text h1 {
+  padding-top: 10px;
+  color: white;
+  font-family: "Cormorant Infant", serif;
+  font-size: 34px;
+}
+
+.Servies-text h3 {
+  letter-spacing: 2px;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  padding-top: 6px;
+  padding-bottom: 3px;
+}
+
+.Services {
+  display: flex;
+  gap: 15px;
+  padding-left: 10pc;
+}
+
+.Service-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 170px;
+  width: 180px;
+  background-color: #1d5129;
+}
+
+.Services img {
+  width: 150px;
+  height: 140px;
+}
+
+.Blog-Container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+.Blog-Card {
+  background-color: white;
+  border: 1px solid #555;
+  overflow: hidden;
+  width: 450px;
+  height: 460px;
+  margin: 10px;
+}
+
+.Blog-Card img {
+  width: 100%;
+  height: auto;
+}
+
+.Blog-Content {
+  padding: 15px;
+}
+
+.Blog-Header {
+  display: flex;
+  gap: 15px;
+  font-size: 12px;
+  color: #aaa;
+  margin-bottom: 10px;
+}
+
+.Blog-Category,
+.Blog-Date {
+  color: #292e36;
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 1px;
+}
+
+.Blog-Category hr,
+.Blog-Date hr {
+  border: none;
+  background-color: #e1b168;
+  height: 1px;
+  margin: 5px;
+}
+
+.Blog-Title {
+  margin: 20px 0;
+  color: #292e36;
+  font-family: "Cormorant Infant", serif;
+  font-size: 26px;
+}
+
+.Blog-Description {
+  color: #555;
+  font-size: 14px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.Reservation-Section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-image: url("Resources/Reservationbackground.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 10pc;
+}
+
+.Reservation-Form {
+  background-color: #1d5129;
+  opacity: 0.8;
+  text-align: center;
+  width: 80%;
+  max-width: 700px;
+  padding: 70px 100px;
+}
+
+.Reservation-Form h3 {
+  color: white;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 500;
+  padding-top: 3px;
+}
+
+.Reservation-Form hr {
+  width: 110px;
+  margin: 0 auto;
+  border: none;
+  height: 1px;
+  background-color: #e1b168;
+}
+
+.Reservation-Form h1 {
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-family: "Cormorant Infant", serif;
+}
+
+.Reservation-Form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ffffff;
+  color: white;
+  background-color: #1d5129;
+  opacity: 0.8;
+  font-size: 16px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.input-group input::placeholder {
+  color: white;
+}
+
+.name-email {
+  width: 48%;
+}
+
+.input-group input[name="person"] {
+  width: 30%;
+}
+
+.input-group input[name="timing"] {
+  width: 30%;
+}
+
+.input-group input[name="date"] {
+  width: 30%;
+}
+
+.Reservation-Form button {
+  background-color: rgb(255, 255, 255);
+  padding: 10px 25px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: #292e36;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.Reservation-Form button:hover {
+  background-color: #e1b168;
+}
+
+.footer {
+  background-color: #063e12;
+  color: white;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.footer-logo {
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+.footer-logo img {
+  width: 280px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 10%;
+  margin-bottom: 20px;
+}
+
+.footer-contact,
+.footer-hours {
+  flex: 1;
+}
+
+.footer-contact {
+  text-align: left;
+}
+
+.footer-hours {
+  text-align: right;
+}
+
+.footer-contact h4,
+.footer-hours h4 {
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  padding-top: 5px;
+  padding-bottom: 2px;
+}
+
+.footer-hours h4:first-child {
+  left: 0;
+  color: green;
+}
+
+.footer-contact hr,
+.footer-hours hr {
+  background-color: #e1b168;
+  border: none;
+  height: 1px;
+  width: 70px;
+}
+
+.footer-hours hr {
+  margin-left: 45rem;
+  width: 140px;
+}
+
+.footer-contact p,
+.footer-hours p {
+  margin: 5px 0;
+  font-size: 14px;
+  font-family: "Josefin Sans", sans-serif;
+  padding-top: 6px;
+}
+
+.footer-contact div,
+.footer-hours div {
+  padding-top: 23px;
+}
+
+.footer-contact span,
+.footer-hours span {
+  color: #e1b168;
+}
+
+.footer-subscribe-container {
+  text-align: center;
+  margin: 20px 0;
+  margin-bottom: 30px;
+}
+
+.footer-subscribe-container p {
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 18px;
+}
+
+.footer-subscribe {
+  display: flex;
+  justify-content: center;
+  padding-left: 25px;
+}
+
+.footer-subscribe input {
+  width: 270px;
+  padding: 15px 10px;
+  font-size: 14px;
+  background-color: #063e12;
+  border: 1px solid white;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.footer-subscribe button {
+  padding: 15px 20px;
+  width: 140px;
+  border: none;
+  background-color: white;
+  color: #292e36;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.footer-subscribe button:hover {
+  background-color: #e0e0e0;
+}
+
+.Copyright-Section {
+  border-top: 1px solid #575b62;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8.5pc;
+}
+
+.Copyright-Section p {
+  padding-top: 5px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.Footer-Socials {
+  display: flex;
+  gap: 15px;
+  padding-top: 5px;
+}
+
+.Footer-Socials a img {
+  width: 16px;
+  height: 16px;
+}
+
+//////////////////////////////////////////////////*Our Essence Page *///////////////////////////////////////////////////////////////
+
+.Main-Heading,
+.Menu-Page-Heading {
+  background-color: #063e12;
+  padding: 40px 0;
+  text-align: center;
+  font-family: "Cormorant Infant", serif;
+  color: white;
+}
+
+.Main-Heading hr {
+  border: none;
+  height: 1px;
+  background-color: #e1b168;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.Introduction-Section {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.Left-Introduction-Section {
+  margin: auto 0;
+}
+
+.Left-Introduction-Section hr {
+  height: 1px;
+  border: none;
+  background-color: #e1b168;
+  width: 110px;
+}
+
+.Left-Introduction-Section h3 {
+  font-size: 15px;
+  font-family: "Josefin Sans", sans-serif;
+  color: #292e36;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+.Left-Introduction-Section h2 {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  color: #292e36;
+  font-family: "Cormorant Infant", serif;
+  font-size: 30px;
+}
+
+.Left-Introduction-Section h1 {
+  padding-top: 30px;
+  padding-bottom: 5px;
+  font-family: "Josefin Sans", sans-serif;
+  color: #292e36;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.Left-Introduction-Section p {
+  font-family: "Josefin Sans", sans-serif;
+  color: #555;
+  text-align: justify;
+}
+
+.Left-Introduction-Section span {
+  display: block;
+  font-family: "Ms Madi", cursive;
+  color: #292e36;
+  font-size: 50px;
+}
+
+.Left-Introduction-Section .See-button {
+  height: 48px;
+  width: 200px;
+  border: 1px solid #e1b168;
+  background-color: white;
+  color: #e1b168;
+  font-family: "Josefin Sans", sans-serif;
+  margin-top: 30px;
+}
+
+.Introduction-Section-images {
+  display: flex;
+}
+
+.Right-Introduction-Section {
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
+
+.Introduction-Section-image img {
+  height: 420px;
+  width: 370px;
+  border-radius: 0px 140px 0px 0px;
+  position: relative;
+  right: -6.5pc;
+  z-index: 2;
+}
+
+.Introduction-Section-pattern img {
+  height: 200px;
+  width: auto;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.Ceo-Details {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 15px;
+}
+
+.Ceo-Details img {
+  border-radius: 100px;
+}
+
+.Ceo-Details h3 {
+  padding-bottom: 6px;
+  font-family: "Josefin Sans", sans-serif;
+  color: #292e36;
+  font-weight: 600;
+}
+
+.Ceo-Details h5 {
+  font-family: "Josefin Sans", sans-serif;
+  color: #4a4a4a;
+  font-weight: 500;
+}
+
+.Introduction-Section-Ceo {
+  padding: 30px 60px 0 40px;
+  width: 300px;
+  height: 210px;
+  position: relative;
+  bottom: 5pc;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.1);
+  z-index: 3;
+}
+
+.Introduction-Section-Ceo p,
+.stars {
+  padding-left: 10px;
+}
+
+.Introduction-Section-Ceo p {
+  font-family: "Josefin Sans", sans-serif;
+  color: #555;
+  line-height: 25px;
+}
+
+.stars {
+  color: #e1b168;
+}
+
+.Banner img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.Chef-Section {
+  max-width: 1100px;
+  margin: 150px auto;
+}
+
+.Chef-Section hr {
+  width: 65px;
+  margin: 0 auto;
+  border: none;
+  background-color: #e1b168;
+  height: 1px;
+}
+
+.Chef-Section h3 {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  color: #292e36;
+  padding-top: 2px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.Chef-Section h1 {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 30px;
+  color: #292e36;
+  font-family: "Cormorant Infant", serif;
+  font-size: 28px;
+}
+
+.chef h1 {
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+
+.chef h3 {
+  padding-top: 3px;
+}
+
+.chefs {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.chefs img {
+  width: 236px;
+}
+
+.Testimonial-Section {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: #063e12;
+}
+
+.Testimonial-Section hr {
+  height: 1px;
+  border: none;
+  background-color: #e1b168;
+  width: 120px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #a0c0a0;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  padding-top: 5px;
+  padding-bottom: 3px;
+}
+
+.main-title {
+  font-size: 32px;
+  margin: 10px 0 30px;
+  font-family: "Cormorant Infant", serif;
+  color: white;
+}
+
+.testimonial-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.testimonial-quote {
+  max-width: 600px;
+  text-align: center;
+}
+
+.quote {
+  font-size: 18px;
+  font-family: "Cormorant Infant", serif;
+  font-style: italic;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.client {
+  display: flex;
+}
+
+.client-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.client-name {
+  font-size: 20px;
+  margin: 0;
+  font-family: "Cormorant Infant", serif;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.client-title {
+  font-size: 16px;
+  color: #e1b168;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.left-arrow {
+  position: relative;
+  bottom: 5pc;
+  right: 10pc;
+}
+
+.right-arrow {
+  position: relative;
+  bottom: 5pc;
+  left: 10pc;
+}
+
+.gallery-section {
+  text-align: center;
+  margin-top: 150px;
+  padding-bottom: 50px;
+}
+
+.gallery-section hr {
+  width: 90px;
+  margin: 0 auto;
+  border: none;
+  background-color: #e1b168;
+  height: 1px;
+}
+
+.gallery-section h3 {
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: #292e36;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 500;
+  padding-top: 5px;
+}
+
+.gallery-section h1 {
+  font-size: 36px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  font-family: "Cormorant Infant", serif;
+  color: #292e36;
+}
+
+.gallery-images {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.gallery-column {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.gallery-column img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+#one,
+#two,
+#four,
+#five {
+  max-width: 200px;
+}
+
+#three {
+  max-width: 550px;
+}
+
+.gallery-column img:hover {
+  transform: scale(1.05);
+}
+
+//////////////////////////////////////////////////*Menu Page *////////////////////////////////////////////////////////////////////
+.Menu-Page-Heading hr {
+  border: none;
+  height: 1px;
+  background-color: #e1b168;
+  width: 140px;
+  margin: 0 auto;
+}
+
+.Starters-Section {
+  display: flex;
+  align-items: center;
+  padding-top: 130px;
+  padding-right: 20px;
+  background-color: #ffffff;
+  gap: 60px;
+  justify-content: center;
+}
+
+.Starters-image img,
+.MainDish-image img,
+.Desserts-image img {
+  width: 365px;
+  padding-top: 10px;
+}
+
+.Starters-details h2,
+.MainDish-details h2,
+.Desserts-details h2 {
+  font-size: 28px;
+  margin-bottom: 35px;
+  font-family: "Cormorant Infant", serif;
+  color: #292e36;
+}
+
+.Starter-item,
+.MainDish-item,
+.Desserts-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 230px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.Starter-info,
+.MainDish-info,
+.Desserts-info {
+  display: flex;
+  align-items: center;
+}
+
+.Starter-info img,
+.MainDish-info img,
+.Desserts-info img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.Starter-info h3,
+.MainDish-info h3,
+.Desserts-info h3 {
+  margin: 0;
+  font-size: 18px;
+  font-family: "Cormorant Infant", serif;
+  color: #292e36;
+}
+
+.Starter-info p,
+.MainDish-info p,
+.Desserts-info p {
+  margin: 5px 0;
+  font-size: 14px;
+  font-family: "Josefin Sans", sans-serif;
+  color: #555555;
+}
+
+.Starter-price {
+  font-size: 16px;
+  font-family: "Cormorant Infant", serif;
+  color: #292e36;
+  font-weight: 900;
+}
+
+.See-button {
+  padding: 10px 40px;
+  border: 2px solid #e1b168;
+  color: #e1b168;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin-top: 50px;
+  font-family: "Cormorant Infant", serif;
+  background-color: white;
+}
+
+.Image-banner img {
+  height: auto;
+  width: 100%;
+  object-fit: fill;
+}
+
+.Image-banner {
+  padding: 10pc 0px;
+}
+
+.MainDish-Section,
+.Desserts-Section {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-right: 20px;
+  background-color: #ffffff;
+  gap: 60px;
+  justify-content: center;
+}
+
+//////////////////////////////////////////////////*Team Page*////////////////////////////////////////////////////////////////////
+
+.team {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 20px;
+}
+
+.team h1 {
+  margin-bottom: 30px;
+  font-family: "Cormorant Infant", serif;
+  color: #292e36;
+  margin-top: 7px;
+}
+
+.team h3 {
+  font-family: "Josefin Sans", sans-serif;
+  color: #292e36;
+  padding-top: 5px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+
+.team hr {
+  height: 1px;
+  width: 50px;
+  background-color: #e1b168;
+  border: none;
+  margin: 0 auto;
+}
+
+.chefs-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.chef {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #eeeeee;
+  overflow: hidden;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+}
+
+.chef img {
+  width: 100%;
+  max-width: 400px;
+  transition: transform 0.3s ease;
+}
+
+.chef .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #ffffff;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.overlay h3 {
+  font-family: "Cormorant Infant", serif;
+  color: white;
+  padding-bottom: 10px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.overlay p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.chef:hover img {
+  transform: scale(1.1);
+}
+
+.chef:hover .overlay {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.chef-skills {
+  margin-top: 10rem;
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.skills-content {
+  width: 30%;
+}
+
+.skills-content hr {
+  height: 1px;
+  width: 110px;
+  background-color: #e1b168;
+  border: none;
+}
+
+.skills-content h1 {
+  font-size: 32px;
+  margin-bottom: 12px;
+  margin-top: 2px;
+  font-family: "Cormorant Infant", serif;
+  color: #292e36;
+}
+
+.skills-content h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  padding-top: 3px;
+  color: #292e36;
+}
+
+.skills-content p {
+  font-size: 16px;
+  margin-bottom: 50px;
+  color: #555;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 20px;
+  text-align: justify;
+}
+
+.skill h2 {
+  color: #292e36;
+  font-family: "Cormorant Infant", serif;
+  margin-bottom: 5px;
+}
+
+.btn-see-all {
+  display: inline-block;
+  color: #e1b168;
+  background-color: rgb(255, 255, 254);
+  border: 1px solid #e1b168;
+  text-decoration: none;
+  margin-top: 10px;
+  padding: 10px 30px;
+  transition: background-color 0.3s;
+}
+
+.btn-see-all:hover {
+  background-color: rgb(235, 195, 85);
+  color: #ffffff;
+}
+
+.skills-image img {
+  width: 100%;
+  max-width: 550px;
+  height: auto;
+}
+
+.bar {
+  width: 100%;
+  background-color: #e0e0e0;
+  height: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.progress {
+  height: 10px;
+  background-color: #333;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .chefs-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px; /* Adjust gap for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .chefs-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 960px) {
+  .chef-skills {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .chef-skills .skills-content,
+  .chef-skills .skills-image {
+    width: 100%;
+  }
+
+  .chef-skills .skills-image {
+    margin-top: 20px;
+  }
+}
+
+//////////////////////////////////////////////////*Contact Page*////////////////////////////////////////////////////////////////////
+
+.Head-Section,
+.Error-Head-Section {
+  padding-top: 2pc;
+  padding-bottom: 3pc;
+  background-color: #063e12;
+}
+
+.Head-Section h1 {
+  font-size: 45px;
+  color: white;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.Head-Section hr {
+  border: none;
+  height: 1px;
+  background-color: #e1b168;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.contact-section {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 8pc;
+  margin-bottom: 10pc;
+}
+
+.contact-info {
+  background-color: #fff8f5;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 55px;
+  width: 30%;
+}
+
+.contact-details h2 {
+  font-size: 32px;
+  margin-bottom: 13px;
+  color: #292e36;
+  font-family: "Cormorant Infant", serif;
+}
+
+.contact-details p {
+  font-size: 16px;
+  line-height: 1.2;
+  margin-bottom: 35px;
+  font-family: "Josefin Sans", sans-serif;
+  color: #555;
+}
+
+.contact-icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.contact-icons p {
+  margin-bottom: 0;
+}
+
+.social-icons {
+  padding-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.contact-form {
+  width: 30%;
+  margin-top: 35px;
+}
+
+.contact-form hr {
+  border: none;
+  width: 60px;
+  height: 1px;
+  background-color: #e1b168;
+}
+
+.contact-form h2 {
+  font-size: 11px;
+  font-family: "Josefin Sans", sans-serif;
+  color: #292e36;
+  font-weight: 500;
+  padding-top: 2px;
+  letter-spacing: 2px;
+}
+
+.contact-form h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  color: #292e36;
+  font-family: "Cormorant Infant", serif;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 48%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.form-group textarea {
+  width: 100%;
+  resize: none;
+}
+
+.contact-form button {
+  padding: 15px;
+  border: 1px solid #e1b168;
+  background-color: #ffffff;
+  color: #e1b168;
+  font-size: 16px;
+  cursor: pointer;
+  width: 140px;
+  font-family: "Josefin Sans", sans-serif;
+  color: #555;
+}
+
+.contact-form button:hover {
+  background-color: #c89c50;
+}
+
+.branches-section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.branches-section h1 {
+  font-size: 16px;
+  font-family: "Josefin Sans", sans-serif;
+  color: #292e36;
+  letter-spacing: 2px;
+  padding-top: 3px;
+  font-weight: 500;
+}
+
+.branches-section hr {
+  border: none;
+  width: 100px;
+  height: 1px;
+  background-color: #e1b168;
+  margin: 0 auto;
+}
+
+.branches-section h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  color: #292e36;
+  font-family: "Cormorant Infant", serif;
+}
+
+.branches {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.branch {
+  background-color: #fff;
+  border: 1px solid #c4c4c4;
+  display: flex;
+  overflow: hidden;
+  width: 45%;
+  max-width: 520px;
+  height: 350px;
+  transition: box-shadow 0.3s ease;
+}
+
+.branch:hover {
+  box-shadow: 0 40px 80px rgba(0, 0, 0, 0.9);
+}
+
+.branch img {
+  width: 100%;
+}
+
+.branch-content {
+  margin-top: 10%;
+  padding: 20px;
+  text-align: center;
+}
+
+.branch-content h3 {
+  font-size: 25px;
+  margin-bottom: 15px;
+  color: #292e36;
+  font-family: "Cormorant Infant", serif;
+}
+
+.branch-content p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  line-height: 1.5;
+  font-family: "Josefin Sans", sans-serif;
+  color: #292e36;
+  text-align: center;
+}
+
+.contact-details img {
+  width: 30px;
+}
+
+.contact-details {
+  padding-top: 30px;
+}
+
+.img-div {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.img-div p {
+  margin-bottom: 0px;
+}
+
+//////////////////////////////////////////////////*404 Page*////////////////////////////////////////////////////////////////////
+
+.Error-Head-Section hr {
+  border: none;
+  height: 1px;
+  background-color: #e1b168;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.error-section {
+  margin-top: 7pc;
+  margin-bottom: 8pc;
+}
+
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 30px;
+}
+
+.error img {
+  height: 250px;
+}
+
+.error-info {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.error-info h3 {
+  font-family: "Cormorant Infant", serif;
+  color: black;
+  font-size: 28px;
+}
+
+.error-info h5 {
+  color: #555555;
+  font-family: "Josefin Sans", sans-serif;
+  padding-top: 8px;
+  font-weight: 500;
+  padding-bottom: 28px;
+}
+
+.error-info button {
+  height: 38px;
+  width: 130px;
+  background-color: #e1b168;
+  border: 1px solid #e1b168;
+  font-size: 12px;
+  font-family: "Josefin Sans", sans-serif;
+  color: #292e36;
+}
